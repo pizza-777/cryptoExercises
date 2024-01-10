@@ -9,4 +9,8 @@ function expmod( base, exp, mod ){
     }
   }
 
-  console.log(expmod(101,17,22663))
+//console.log(expmod(101, 17, 22663))
+  
+module.exports = {
+    expmod
+}
